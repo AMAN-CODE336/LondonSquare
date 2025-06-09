@@ -38,7 +38,7 @@ export default function page() {
               Ready to Take the Next Step?
             </h2>
             <p className="text-lg">
-              Let’s start the conversation — we’re here to turn your plans into
+              Let's start the conversation — we're here to turn your plans into
               reality.
             </p>
           </div>
