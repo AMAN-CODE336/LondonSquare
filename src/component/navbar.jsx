@@ -5,7 +5,6 @@ import Link from "next/link";
 import { motion } from 'framer-motion';
 
 export default function Navbar() {
-  const [showDropdown, setShowDropdown] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
