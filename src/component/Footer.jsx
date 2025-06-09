@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube  } from "react-icons/fa";
 import Link from "next/link";
 
 
@@ -43,10 +43,9 @@ export default function Footer(){
     <div className="pl-4">
       <h3 className="text-lg font-semibold text-white mb-2">Follow Us</h3>
       <div className="flex space-x-4 mt-2">
-        <a href="#" className="hover:text-white transition"><FaFacebookF /></a>
-        <a href="#" className="hover:text-white transition"><FaInstagram /></a>
-        <a href="#" className="hover:text-white transition"><FaLinkedinIn /></a>
-        <a href="#" className="hover:text-white transition"><FaTwitter /></a>
+        <Link href="https://www.facebook.com/mdbgroupzrk/photos/london-square-the-latest-commercial-masterpiece-by-mdb-group-where-prime-locatio/440622495546839/" className="hover:text-white transition"><FaFacebookF /></Link>
+        <Link href="https://www.instagram.com/reel/C6wHlwJp-HW/" className="hover:text-white transition"><FaInstagram /></Link>
+         <Link href="#" className="hover:text-white transition"><FaYoutube /></Link>
       </div>
     </div>
     

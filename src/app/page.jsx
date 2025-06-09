@@ -8,6 +8,7 @@ import Footer from "@/component/Footer";
 import Link from "next/link";
 import { PhoneCall, MapPin } from "lucide-react";
 import Image from "next/image";
+import WhatsAppButton from "@/component/WhatsappBtn";
 import ClientLoaderWrapper from "@/component/ClientLoaderWrapper";
 export default function page() {
   return (
@@ -33,7 +34,7 @@ export default function page() {
     </section> */}
 
         <div className="bg-[#c26265] text-white mt-20 py-8 px-4 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-          <div className="pl-24">
+          <div className="md:pl-24">
             <h2 className="text-3xl md:text-4xl font-bold mb-2">
               Ready to Take the Next Step?
             </h2>
@@ -66,6 +67,7 @@ export default function page() {
         <AboutSection />
         <ImageGallery />
         <ContactSection />
+<WhatsAppButton/>
         <Footer />
       </ClientLoaderWrapper>
     </>

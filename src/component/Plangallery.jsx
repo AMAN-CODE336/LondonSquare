@@ -1,22 +1,22 @@
-"use client"
+"use client";
 
-import Image from 'next/image';
-import Masonry from 'react-masonry-css';
+import Image from "next/image";
+import Masonry from "react-masonry-css";
 
 const planImages = [
   {
-    src: '/Untitled design (9).png',
-    title: 'Basement Floor plan',
+    src: "/Untitled design (9).png",
+    title: "Basement Floor plan",
   },
   // {
   //   src: '/Untitled design (10).png',
   //   title: 'Lower ground floor plan',
   // },
   {
-    src: '/Untitled design (11).png',
-    title: 'upper ground floor plan',
+    src: "/Untitled design (11).png",
+    title: "upper ground floor plan",
   },
-  
+
   // {
   //   src: '/Untitled design (12).png',
   //   title: 'first floor plan ',
@@ -26,15 +26,14 @@ const planImages = [
   //   title: 'second floor plan ',
   // },
   {
-    src: '/Untitled design (14).png',
-    title: 'third floor plan ',
+    src: "/Untitled design (14).png",
+    title: "third floor plan ",
   },
-  
+
   {
-    src: '/Untitled design (15) (1).png',
-    title: 'single unit plan',
+    src: "/Untitled design (15) (1).png",
+    title: "single unit plan",
   },
-  
 ];
 
 const breakpointColumnsObj = {
@@ -109,15 +108,14 @@ export default function PlanGallery() {
             ))}
           </Masonry>
 
-          {/* Centered last image */}
-          <div className="mt-12 flex justify-center">
-            <div className="rounded-lg overflow-hidden shadow hover:shadow-xl transition duration-300 bg-white max-w-md">
+          <div className="mt-12 pl-34 pr-34">
+            <div className="rounded-lg  overflow-hidden shadow hover:shadow-xl transition duration-300 bg-white w-full">
               <Image
                 src={lastImage.src}
                 alt={lastImage.title}
-                width={600}
+                width={1200}
                 height={400}
-                className="w-full h-auto object-cover"
+                className="w-full  h-auto object-cover"
               />
               <div className="p-4 text-center font-medium uppercase text-gray-700">
                 {lastImage.title}
