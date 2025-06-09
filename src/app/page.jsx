@@ -33,7 +33,7 @@ export default function page() {
       </div>
     </section> */}
 
-        <div className="bg-[#c26265] text-white  py-8 px-4 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <div className="bg-[#c26265] text-white mt-20 py-8 px-4 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div className="md:pl-24">
             <h2 className="text-3xl md:text-4xl font-bold mb-2">
               Ready to Take the Next Step?
