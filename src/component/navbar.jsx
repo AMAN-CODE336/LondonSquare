@@ -2,13 +2,18 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { motion } from 'framer-motion';
 
 export default function Navbar() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed  z-50 bg-white text-black">
+    <motion.nav 
+    initial={{ opacity: 0, y: -40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 2,delay : 0.3, ease: 'easeOut' }}
+    className="w-full fixed  z-50 bg-white text-black">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
         {/* Logo */}
         <div>
@@ -106,6 +111,6 @@ export default function Navbar() {
           
         </div>
       )}
-    </nav>
+    </motion.nav>
   );
 }
