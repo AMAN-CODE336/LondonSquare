@@ -3,8 +3,11 @@ import Navbar from "@/component/navbar";
 import { Montserrat } from 'next/font/google';
 
 export const metadata = {
-  title: "My App",
-  description: "Your app description here",
+  title: "London Square",
+  description: "Near To IT City - Mohali",
+  icons: {
+    icon: '/Favicon.png',
+  },
 };
 
 const montserrat = Montserrat({
