@@ -69,9 +69,9 @@ export default function Herosection() {
         </div> */}
               </Swiper>
               <div className=''>
-             <div className="hidden lg:block absolute bottom-[-50] left-[18.3rem] right transform -translate-x-1/2 z-20 bg-[#c26265] text-white py-10 space-y-4  rounded-md text-center max-w-xl w-full shadow-lg">
-  <h2 className="text-2xl md:text-5xl font-bold uppercase">Studio Apartments</h2>
-  <h2 className="text-2xl md:text-4xl uppercase ">Above Commercial Spaces</h2>
+             <div className=" absolute bottom-[-50] left-[10rem] lg:left-[18.3rem] right transform -translate-x-1/2 z-20 bg-[#c26265] text-white py-4 lg:py-10 lg:space-y-4  rounded-md text-center lg:max-w-xl w-full shadow-lg">
+  <h2 className="text-xl md:text-5xl font-bold uppercase">Studio Apartments</h2>
+  <h2 className="text-xl md:text-4xl uppercase ">Above Commercial Spaces</h2>
   <p className="text-base md:text-xl  tracking-wide uppercase">you're always close to everything you need</p>
 </div></div>
 

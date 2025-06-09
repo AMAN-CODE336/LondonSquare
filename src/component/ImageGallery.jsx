@@ -29,7 +29,7 @@ const animationVariants = [
   className="py-12 bg-white"
 >
   <div className="max-w-7xl mx-auto px-4">
-    <div className="flex flex-wrap gap-4 justify-center">
+    <div className="flex flex-wrap gap-4 overflow-hidden justify-center">
       {images.map((src, idx) => {
         const variant = animationVariants[idx % animationVariants.length]; // cycle animations
         return (
