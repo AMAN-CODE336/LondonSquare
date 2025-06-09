@@ -18,18 +18,27 @@ const stats = [
     <section  className="py-16 bg-gray-50" id="about">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left: Image */}
-          <div className="relative w-full h-80 md:h-[400px] rounded-2xl overflow-hidden shadow-md">
-  <video
-    autoPlay
-    muted
-    loop
-    playsInline
-    className="object-cover w-full h-full"
-  >
-    <source src="/London-square.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+        <div className="w-full">
+  <div className="relative w-full h-80 md:h-[400px] rounded-2xl overflow-hidden shadow-md">
+    <video
+      autoPlay
+      muted
+      loop
+      playsInline
+      className="object-cover w-full h-full"
+    >
+      <source src="/London-square.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <h2 className="text-xs text-gray-600 mt-4 text-center px-4">
+    This 3D animation is created for illustration and concept visualization only. Any trademarks, logos, or brand names shown are used for representational purposes and do not indicate any official connection, sponsorship, or approval from the respective brand owners.
+  </h2>
 </div>
+
+
+
 
 
         {/* Right: Text */}
