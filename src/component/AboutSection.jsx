@@ -21,6 +21,7 @@ const stats = [
         <div className="w-full">
   <div className="relative w-full h-80 md:h-[400px] rounded-2xl overflow-hidden shadow-md">
     <video
+    controls
       autoPlay
       muted
       loop
