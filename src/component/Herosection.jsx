@@ -64,9 +64,9 @@ export default function Herosection() {
 
         ))}
         
-          <div className=" absolute bottom-5 left-5 z-20">
+          {/* <div className=" absolute bottom-5 left-5 z-20">
           <div className="custom-pagination flex space-x-4  " />
-        </div>
+        </div> */}
               </Swiper>
               <div className=''>
              <div className=" absolute bottom-16  md:bottom-[-50] left-[10rem] lg:left-[18.3rem] right transform -translate-x-1/2 z-20 bg-[#c26265] text-white py-4 lg:py-10 lg:space-y-4  rounded-md text-center lg:max-w-xl w-full shadow-lg">
