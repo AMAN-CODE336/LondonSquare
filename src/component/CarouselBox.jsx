@@ -3,16 +3,16 @@
 import React from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay} from "swiper/modules";
 import "swiper/css";
 
 const CarouselBox = ({ images = [], alt = "carousel image" }) => {
   return (
-    <div className="w-full h-94 rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+    <div className="w-full h-98 rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
       <Swiper
-        modules={[Autoplay, Pagination]}
+        modules={[Autoplay]}
         loop={true}
-        autoplay={{ delay: 2500, disableOnInteraction: false }}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
         className="w-full h-full"
       >
         {images.map((img, idx) => (

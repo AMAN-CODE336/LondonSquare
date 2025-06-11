@@ -7,25 +7,25 @@ export default function ProgressSection() {
       <div className="max-w-7xl mb-12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <CarouselBox
           images={[
-            "/construction-modern-skyscrapers (1).jpg",
-            "/construction-modern-skyscrapers (1).jpg",
-            "/construction-modern-skyscrapers (1).jpg",
+            "/20250611_163830.jpg",
+            "/20250611_163843.jpg",
+            "/20250611_163903.jpg",
           ]}
           alt="Box 1"
         />
         <CarouselBox
           images={[
-            "/construction-modern-skyscrapers (1).jpg",
-            "/construction-modern-skyscrapers (1).jpg",
-            "/construction-modern-skyscrapers (1).jpg",
+            "/20250611_163912.jpg",
+            "/20250611_163935.jpg",
+            "/20250611_163941.jpg",
           ]}
           alt="Box 2"
         />
         <CarouselBox
           images={[
-            "/construction-modern-skyscrapers (1).jpg",
-            "/images/box3-2.jpg",
-            "/images/box3-3.jpg",
+            "/20250611_163948.jpg",
+            "/20250611_163830.jpg",
+            "/20250611_163912.jpg",
           ]}
           alt="Box 3"
         />
