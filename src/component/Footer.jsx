@@ -53,7 +53,7 @@ export default function Footer(){
 
   {/* Bottom Bar */}
   <div className="mt-10 border-t border-gray-700 pt-4 text-center text-sm text-gray-500">
-    © {new Date().getFullYear()} LONDONSQUARE. All rights reserved. || Designed By <strong> <a href="https://webczarsolutions.com/">Webczar Solutions</a></strong>
+    © {new Date().getFullYear()} LONDONSQUARE. All rights reserved. | Designed By <strong> <a href="https://webczarsolutions.com/">Webczar Solutions</a></strong>
   </div>
 </footer>
 
