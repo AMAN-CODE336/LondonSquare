@@ -52,6 +52,7 @@ const animationVariants = [
         );
       })}
     </div>
+    <h2 className="text-sm mt-2 text-gray-600">*The visuals shown are anticipatory and rendered images, intended solely for illustrative purposes.</h2>
   </div>
 </motion.section>
   );

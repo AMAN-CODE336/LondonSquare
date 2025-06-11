@@ -46,7 +46,7 @@ export default function KeyHighlights() {
         <div className="text-3xl flex gap-2 font-bold items-center justify-center  mb-12"><p className='text-black'>Key</p><p className='text-[#c26265]'>Highlights</p> </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center">
           {highlights.map((item, idx) => (
-            <div key={idx} className="bg-white rounded-xl p-6 shadow hover:shadow-lg transition">
+            <div key={idx} className="bg-white rounded-xl p-6 hover:scale-105 md:hover:scale-110 transition-transform duration-300 ease-in-out hover:-translate-y-2 md:hover:-translate-y-4 shadow-lg">
               <div className="flex justify-center mb-4">{item.icon}</div>
               <p className="text-gray-700 font-medium">{item.title}</p>
             </div>

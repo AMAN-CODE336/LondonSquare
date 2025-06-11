@@ -7,6 +7,7 @@ import ContactSection from "@/component/ContactSection";
 import Footer from "@/component/Footer";
 import Link from "next/link";
 import { PhoneCall, MapPin } from "lucide-react";
+import ProgressSection from "@/component/ProgressSection";
 import Image from "next/image";
 import WhatsAppButton from "@/component/WhatsappBtn";
 import ClientLoaderWrapper from "@/component/ClientLoaderWrapper";
@@ -65,6 +66,7 @@ export default function page() {
 
         <PlanGallery />
         <AboutSection />
+<ProgressSection/>
         <ImageGallery />
         <ContactSection />
 <WhatsAppButton/>

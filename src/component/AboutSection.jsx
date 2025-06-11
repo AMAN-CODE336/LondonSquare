@@ -8,9 +8,9 @@ import { useInView } from "react-intersection-observer";
 
 export default function AboutSection() {
 const stats = [
-  { label: "Units Available", value: 100, suffix: "+" },
+  { label: "Units Available", value: 80, suffix: "+" },
   { label: "Happy Investors", value: 50, suffix: "+" },
-  { label: "Business Tenants", value: 300 , suffix : "+" },
+  { label: "Channel Partners", value: 120 , suffix : "+" },
   { label: "On-time Delivery", value: 100 , suffix : "%" },
 ];
 
@@ -58,9 +58,9 @@ const stats = [
           </h2>
           </div>
           <p className="text-gray-600 text-lg mb-6">
-           With over <strong>15 years</strong> of expertise in developing premium commercial properties, 
+           With over <strong>15 years</strong> of expertise in developing premium Residential or commercial  properties, 
           <strong> London Square</strong> is a landmark destination designed for businesses aiming to grow, 
-          scale, and thrive. Every layout—from office towers and retail spaces to luxury showrooms—has been crafted to deliver 
+          scale, and thrive. Every layout—from office towers , Residential Appartment and retail spaces to luxury showrooms—has been crafted to deliver 
           <strong> high returns</strong> and ensure a <strong> powerful brand presence</strong>.
           </p>
 
