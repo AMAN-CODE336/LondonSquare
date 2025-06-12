@@ -2,17 +2,18 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <motion.nav 
-    initial={{ opacity: 0, y: -40 }}
+    <motion.nav
+      initial={{ opacity: 0, y: -40 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 2,delay : 0.3, ease: 'easeOut' }}
-    className="w-full fixed  z-50 bg-white text-black">
+      transition={{ duration: 2, delay: 0.3, ease: "easeOut" }}
+      className="w-full fixed  z-50 bg-white text-black"
+    >
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
         {/* Logo */}
         <div>
@@ -72,6 +73,12 @@ export default function Navbar() {
           </li>
 
           <li>
+            <Link href="#Progress" className="hover:text-[#c26265] ">
+              Progress
+            </Link>
+          </li>
+
+          <li>
             <Link href="#Gallerysection" className="hover:text-[#c26265]">
               Gallery
             </Link>
@@ -88,26 +95,54 @@ export default function Navbar() {
       {/* Mobile Menu Items */}
       {mobileMenuOpen && (
         <div className="md:hidden text-center bg-white px-6 py-4 space-y-3 shadow-md">
-          <Link href="#Home" onClick={() => setMobileMenuOpen(false)} className="block text-black">
+          <Link
+            href="#Home"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-black"
+          >
             Home
           </Link>
           <hr />
-          <Link href="#Plans" onClick={() => setMobileMenuOpen(false)} className="block text-black">
+          <Link
+            href="#Plans"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-black"
+          >
             Project plans
           </Link>
           <hr />
-          <Link href="#about" onClick={() => setMobileMenuOpen(false)} className="block text-black">
+          <Link
+            href="#about"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-black"
+          >
             About us
           </Link>
           <hr />
-          <Link href="#Gallerysection" onClick={() => setMobileMenuOpen(false)} className="block text-black">
+
+          <Link
+            href="#Progress"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-black"
+          >
+            Progress
+          </Link>
+          <hr />
+          <Link
+            href="#Gallerysection"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-black"
+          >
             Gallery
           </Link>
           <hr />
-          <Link href="#Contactsection" onClick={() => setMobileMenuOpen(false)} className="block text-black">
+          <Link
+            href="#Contactsection"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-black"
+          >
             Booking
           </Link>
-          
         </div>
       )}
     </motion.nav>

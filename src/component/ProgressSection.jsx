@@ -1,7 +1,7 @@
 import CarouselBox from "./CarouselBox";
 export default function ProgressSection() {
   return (
-    <main className="min-h-screen  py-12 px-4">
+    <main id="Progress" className="min-h-screen  py-12 px-4">
                 <div className="text-3xl flex gap-2 font-bold items-center justify-center  mb-16"><p className='text-[#c26265]'>Site</p><p className='text-black'>Progress</p> </div>
 
       <div className="max-w-7xl mb-12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
