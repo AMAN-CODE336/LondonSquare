@@ -19,7 +19,7 @@ export default function KeyHighlights() {
     },
     {
       icon: <HiBuildingOffice2 size={48} className=''/>,
-      title: 'Above Commercial Property',
+      title: 'Fully Furnished Property',
     },
     {
       icon: <MdOutlineSecurity size={48} className='' />,

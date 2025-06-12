@@ -25,8 +25,11 @@ export default function Footer(){
     {/* Contact Info */}
     <div className="border-r border-gray-700 gap-4 pr-4">
       <h3 className="text-lg font-semibold text-white mb-2">Contact Us</h3>
-      <p className="text-sm">Mohali Airport Road, Near Tangori college, National Highway 205,<br />Banur to Mohali, Punjab </p>
-      <p className="text-sm mt-1">📞  +91 95693 17878 ||  8282858572</p>
+      <p className="text-sm">Mohali Airport Road, Near Tangori college, National Highway 205,Bharatmala Expressway,<br />Banur to Mohali, Punjab </p>
+      <p className="text-sm mt-1 flex flex-col gap-1">
+   <a href="tel:+919569317878">📞+91 95693 17878</a><a href="tel:+918282858572"> 📞+91 8282858572</a>
+</p>
+
       <p className="text-sm">📧 marketing@londonsquare.in</p>
     </div>
 
