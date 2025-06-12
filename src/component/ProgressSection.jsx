@@ -8,9 +8,9 @@ export default function ProgressSection() {
   <div className="flex flex-col items-center">
     <CarouselBox
       images={[
-        "/20250611_163830.jpg",
-        "/20250611_163843.jpg",
-        "/20250611_163903.jpg",
+        "/vlcsnap-2025-06-12-12h54m37s471.png",
+        "/vlcsnap-2025-06-12-12h58m43s967.png",
+        "/vlcsnap-2025-06-12-12h59m12s294.png",
       ]}
       alt="Box 1"
     />
@@ -23,9 +23,9 @@ export default function ProgressSection() {
   <div className="flex flex-col items-center">
     <CarouselBox
       images={[
-        "/20250611_163912.jpg",
-        "/20250611_163935.jpg",
-        "/20250611_163941.jpg",
+        "/vlcsnap-2025-06-12-13h15m27s563.png",
+        "/vlcsnap-2025-06-12-13h24m54s137.png",
+        "/vlcsnap-2025-06-12-13h25m00s332.png",
       ]}
       alt="Box 2"
     />
@@ -38,9 +38,9 @@ export default function ProgressSection() {
   <div className="flex flex-col items-center">
     <CarouselBox
       images={[
-        "/20250611_163948.jpg",
-        "/20250611_163830.jpg",
-        "/20250611_163912.jpg",
+        "/vlcsnap-2025-06-12-14h07m13s585.png",
+        "/vlcsnap-2025-06-12-14h07m37s957.png",
+        "/vlcsnap-2025-06-12-14h07m46s473.png",
       ]}
       alt="Box 3"
     />
