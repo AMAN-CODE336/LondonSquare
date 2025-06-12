@@ -30,7 +30,9 @@ export default function Footer(){
    <a href="tel:+919569317878">📞+91 95693 17878</a><a href="tel:+918282858572"> 📞+91 8282858572</a>
 </p>
 
-      <p className="text-sm">📧 marketing@londonsquare.in</p>
+<p className="text-sm">
+  📧 <a href="mailto:marketing@londonsquare.in" className="text-blue-600 hover:underline">marketing@londonsquare.in</a>
+</p>
     </div>
 
     {/* Quick Links */}
