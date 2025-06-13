@@ -25,7 +25,7 @@ export default function Footer(){
     {/* Contact Info */}
     <div className="border-r border-gray-700 gap-4 pr-4">
       <h3 className="text-lg font-semibold text-white mb-2">Contact Us</h3>
-      <p className="text-sm">Mohali Airport Road, Near Tangori college, National Highway 205,Bharatmala Expressway,<br />Banur to Mohali, Punjab </p>
+      <p className="text-sm">Mohali Airport Road, Near Tangori college, National Highway 205A, Bharatmala Expressway,<br />Banur to Mohali, Punjab </p>
       <p className="text-sm mt-1 flex flex-col gap-1">
    <a href="tel:+919569317878">📞+91 95693 17878</a><a href="tel:+918282858572"> 📞+91 8282858572</a>
 </p>
@@ -50,7 +50,7 @@ export default function Footer(){
       <div className="flex space-x-4 mt-2">
         <Link href="https://www.facebook.com/mdbgroupzrk/photos/london-square-the-latest-commercial-masterpiece-by-mdb-group-where-prime-locatio/440622495546839/" className="hover:text-white transition"><FaFacebookF /></Link>
         <Link href="https://www.instagram.com/reel/C6wHlwJp-HW/" className="hover:text-white transition"><FaInstagram /></Link>
-         <Link href="#" className="hover:text-white transition"><FaYoutube /></Link>
+         {/* <Link href="#" className="hover:text-white transition"><FaYoutube /></Link> */}
       </div>
     </div>
     

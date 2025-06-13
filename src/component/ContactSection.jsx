@@ -3,7 +3,7 @@ export default function ContactSection() {
    <section id="Contactsection" className="w-full  px-6 py-12 md:mt-18 bg-white md:flex md:items-start md:justify-between gap-12">
       {/* Left Side - Location Info */}
       <div className="md:w-1/2 w-full md:px-8 space-y-4">
-        <h2 className="text-3xl font-bold text-gray-800">Visit Our Office</h2>
+        <h2 className="text-3xl font-bold "><span className="text-[#c26265]">Visit</span> <span className="text-black">Our</span> <span className="text-[#c26265]">Office</span> </h2>
         <p className="text-gray-600">
 We’re more than happy to connect with you! Whether you have a question, a project idea, or just want to say hello — our doors are always open. <br/> 
 Feel free to drop by our office and meet us in person. Prefer writing to us? Simply fill out the form alongside and share your query.<br/> 

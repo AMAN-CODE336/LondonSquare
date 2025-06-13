@@ -69,10 +69,10 @@ export default function Herosection() {
         </div> */}
               </Swiper>
               <div className=''>
-             <div className=" absolute bottom-16  md:bottom-[-40] left-[10rem] lg:left-[18.3rem] right transform -translate-x-1/2 z-20 bg-[#c26265] text-white py-4 lg:py-10  lg:space-y-4 pl-8 md:pl-4  rounded-md md:text-start lg:max-w-xl w-full shadow-lg">
-  <h2 className="text-xl md:text-5xl  font-bold px-3 md:px-0 uppercase">Studio Apartments</h2>
+             <div className=" absolute bottom-22  md:bottom-[-40] left-[10rem] lg:left-[18.3rem] right transform -translate-x-1/2 z-20 bg-[#c26265] text-white py-4 lg:py-10  lg:space-y-4 pl-8 md:pl-4  rounded-md md:text-start lg:max-w-xl w-full shadow-lg">
+  <h2 className="text-2xl md:text-5xl  font-bold px-3 md:px-0 uppercase">Studio Apartments</h2>
   <h2 className="text-xl md:text-4xl px-3 md:px-0 uppercase ">Above Commercial Spaces</h2>
-  <p className="text-base font-semibold md:text-[23px] px-3  md:px-0 tracking-wide uppercase">always close to everything you need</p>
+  <p className="text-[13px] font-semibold md:text-[23px] px-3  md:px-0 tracking-wide uppercase">always close to everything you need</p>
 </div>
 </div>
 

@@ -9,7 +9,7 @@ import "swiper/css";
 const CarouselBox = ({ images = [], alt = "carousel image" }) => {
   return (
     <div className="w-full h-[30rem]  overflow-hidden shadow-lg ">
-      <Swiper
+      <Swiper 
         modules={[Autoplay]}
         loop={true}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
