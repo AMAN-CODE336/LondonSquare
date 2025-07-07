@@ -28,7 +28,7 @@ const stats = [
       playsInline
       className="object-cover w-full h-full"
     >
-      <source src="/London-square.mp4" type="video/mp4" />
+      <source src="/Untitled design.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </div>
